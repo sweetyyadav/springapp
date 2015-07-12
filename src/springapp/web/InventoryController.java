@@ -13,7 +13,7 @@ import org.apache.commons.logging.LogFactory;
 import java.io.IOException;
 import java.util.Date;
 
-public class HelloController implements Controller {
+public class InventoryController implements Controller {
 
     protected final Log logger = LogFactory.getLog(getClass());
 
