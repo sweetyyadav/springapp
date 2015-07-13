@@ -15,7 +15,15 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration process_explicitly_annotated="true">
+        <fileset id="web springapp servlet context" name="MVC springapp servlet context" removed="true">
+          <file>file://$MODULE_DIR$/war/WEB-INF/springapp-servlet.xml</file>
+        </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/war/WEB-INF/springapp-servlet.xml</file>
+          <file>file://$MODULE_DIR$/test/test-context.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
